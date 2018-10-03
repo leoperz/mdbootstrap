@@ -1,0 +1,173 @@
+<!--Main Navigation-->
+<header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar">
+      <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opinions</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+  </header>
+  <!--Main Navigation-->
+
+  <hr>
+
+  <!-- Section: Features v.2 -->
+<section class="my-5">
+
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Why is it so great?</h2>
+    <!-- Section description -->
+    <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-5">
+  
+        <!-- Grid row -->
+        <div class="row">
+  
+          <!-- Grid column -->
+          <div class="col-lg-2 col-md-3 col-2">
+            <i class="fa fa-bullhorn blue-text fa-2x, animated bounce"></i>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-lg-10 col-md-9 col-10">
+            <h4 class="font-weight-bold">Marketing</h4>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a class="btn btn-primary btn-sm">Learn more</a>
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row -->
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-5">
+  
+        <!-- Grid row -->
+        <div class="row">
+  
+          <!-- Grid column -->
+          <div class="col-lg-2 col-md-3 col-2">
+            <i class="fa fa-cogs pink-text fa-2x"></i>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-lg-10 col-md-9 col-10">
+            <h4 class="font-weight-bold">Customization</h4>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a class="btn btn-pink btn-sm">Learn more</a>
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row -->
+  
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-md-4">
+  
+        <!-- Grid row -->
+        <div class="row">
+  
+          <!-- Grid column -->
+          <div class="col-lg-2 col-md-3 col-2">
+            <i class="fa fa-dashboard purple-text fa-2x"></i>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-lg-10 col-md-9 col-10">
+            <h4 class="font-weight-bold">Support</h4>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <a class="btn btn-purple btn-sm">Learn more</a>
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row -->
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
+  
+  </section>
+  <!-- Section: Features v.2 -->
+
+  <div class="card">
+    <div class="card-body">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-12">
+  
+     
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    
+  
+    </div>
+  </div>
+
+
+  <ng-multiselect-dropdown
+  [placeholder]="'Seleccione una opcion'"
+  [data]="dropdownList"
+  [(ngModel)]="selectedItems"
+  [settings]="dropdownSettings"
+  (onSelect)="onItemSelect($event)"
+  (onSelectAll)="onSelectAll($event)"
+>
+</ng-multiselect-dropdown>
+    
+
+
